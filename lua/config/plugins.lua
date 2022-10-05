@@ -59,6 +59,14 @@ require('packer').startup(
 				end
 			})
 
+			-- Autosave
+			use({
+			"Pocco81/auto-save.nvim",
+			config = function()
+		 		require("auto-save").setup {}
+			end
+			})
+
 			-- IDE funkcionality
 			use ({
 				'nvim-treesitter/nvim-treesitter',
