@@ -1,9 +1,9 @@
 require("nvim-tree").setup {
-	view = {
-		mappings = {
-        	custom_only = false
-        }
+  view = {
+    mappings = {
+      custom_only = false
     }
+  }
 }
 
 -- require("nvim-tree").toggle(false, true) -- automaticke zobrazenie Nvimtree pri starte nvim

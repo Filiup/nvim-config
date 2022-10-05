@@ -1,6 +1,6 @@
 local actions = require "telescope.actions"
 
-require('telescope').setup{
+require('telescope').setup {
   defaults = {
 
     prompt_prefix = " ",
@@ -89,6 +89,3 @@ require('telescope').setup{
     -- please take a look at the readme of the extension you want to configure
   },
 }
-
-
-

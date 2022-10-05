@@ -1,8 +1,8 @@
-local function map(mode, key, action) 
-	vim.keymap.set(mode, key, action, { silent = true })
+local function map(mode, key, action)
+  vim.keymap.set(mode, key, action, { silent = true })
 end
 
--- Prepinanie medzi tabs  
+-- Prepinanie medzi tabs
 
 -- <C-w-w> => prepinanie medzi oknami
 
@@ -32,7 +32,7 @@ map('t', '<C-Down>', '<CMD>horizontal resize -5<CR>')
 -- NeoVim LSP
 
 -- Skoci na definiciu funkcie, premennej, classy ...
-map('n', 'gd', ':lua vim.lsp.buf.definition()<cr>')	 
+map('n', 'gd', ':lua vim.lsp.buf.definition()<cr>')
 
 -- Skoci na deklaraciu funkcie, premennej, classy ...
 map('n', 'gD', ':lua vim.lsp.buf.declaration()<cr>')
@@ -56,7 +56,7 @@ map('n', '<leader>af', ':lua vim.lsp.buf.code_action()<cr>')
 -- Premenovanie nazvu premennej, funkcie ... v celom subore
 map('n', '<leader>rn', ':lua vim.lsp.buf.rename()<cr>')
 
-map('n','<leader>lf', ':lua vim.lsp.buf.formatting()<cr>')
+map('n', '<leader>lf', ':lua vim.lsp.buf.formatting()<cr>')
 
 
 
