@@ -28,19 +28,19 @@ require('lualine').setup({
       { 'location', color = { gui = 'bold' } },
     },
   },
-  tabline = {
-    lualine_a = {
-      {
-        'buffers',
-        buffers_color = { active = 'lualine_b_normal' },
-      },
-    },
-    lualine_z = {
-      {
-        'tabs',
-        tabs_color = { active = 'lualine_b_normal' },
-      },
-    },
-  },
+  -- tabline = {    
+  --   lualine_a = {
+  --     {
+  --       'buffers',
+  --       buffers_color = { active = 'lualine_b_normal' },
+  --     },
+  --   },
+  --   lualine_z = {
+  --     {
+  --       'tabs',
+  --       tabs_color = { active = 'lualine_b_normal' },
+  --     },
+  --   },
+  -- },
   extensions = { 'toggleterm', 'nvim-tree' },
 })

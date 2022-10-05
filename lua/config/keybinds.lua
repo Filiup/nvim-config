@@ -24,6 +24,11 @@ map('n', '<C-Right>', '<CMD>tabnext<CR>')
 -- NvimTree
 map('n', '<C-a>', '<CMD>NvimTreeToggle<CR>')
 
+-- Buffers
+map('n', '<C-Left>', '<CMD>bprevious<CR>')
+map('n', '<C-Right>','<CMD>bnext<CR>')
+map('n', '<leader>c','<CMD>Bdelete<CR>')
+
 -- ToggleTerm
 map('n', '<C-t>', '<CMD>ToggleTerm<CR>')
 map('t', '<C-t>', '<CMD>ToggleTerm<CR>')
