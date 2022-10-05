@@ -56,6 +56,7 @@ map('n', '<leader>af', ':lua vim.lsp.buf.code_action()<cr>')
 -- Premenovanie nazvu premennej, funkcie ... v celom subore
 map('n', '<leader>rn', ':lua vim.lsp.buf.rename()<cr>')
 
+map('n','<leader>lf', ':lua vim.lsp.buf.formatting()<cr>')
 
 
 

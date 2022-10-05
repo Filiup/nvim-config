@@ -26,9 +26,8 @@ require('packer').startup(
 			config = function ()
 				require('nvim-web-devicons').setup()
 			end 
-
 			})
-
+			
 			use {
   				'nvim-lualine/lualine.nvim',
 				config = function ()
