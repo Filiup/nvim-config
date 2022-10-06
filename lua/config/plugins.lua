@@ -97,7 +97,15 @@ require('packer').startup(
         require('config.plugins.LspInstaller')
       end
     })
-
+    
+    -- zobrazenie statusu pre LSP language servers
+    use({
+      'j-hui/fidget.nvim',
+      config = function ()
+        require('fidget').setup()
+      end
+    })
+    
     -- Snippet engines
     use({ "L3MON4D3/LuaSnip", tag = "v<CurrentMajor>.*" })
 

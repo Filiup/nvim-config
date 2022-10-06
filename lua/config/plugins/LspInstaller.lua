@@ -1,25 +1,6 @@
 local lsp_installer = require("nvim-lsp-installer")
 local lsp_config = require('lspconfig')
 
-local function lua_server_config()
-  return {
-    Lua = {
-      diagnostics = {
-        globals = { 'vim', 'use' },
-        disable = { 'trailing-space' }
-      },
-      format = {
-        enable = true
-      }
-      --workspace = {
-      -- Make the server aware of Neovim runtime files
-      --library = {[vim.fn.expand('$VIMRUNTIME/lua')] = true, [vim.fn.expand('$VIMRUNTIME/lua/vim/lsp')] = true}
-      --}
-    }
-  }
-
-end
-
 lsp_installer.setup {
   automatic_installation = true,
   ensure_installed = {
@@ -39,7 +20,22 @@ lsp_config.pyright.setup {
 }
 
 lsp_config.sumneko_lua.setup {
-  settings = lua_server_config()
+  settings = {
+    Lua = {
+      diagnostics = {
+        globals = { 'vim', 'use' },
+        disable = { 'trailing-space' }
+      },
+      format = {
+        enable = true
+      }
+      --workspace = {
+      -- Make the server aware of Neovim runtime files
+      --library = {[vim.fn.expand('$VIMRUNTIME/lua')] = true, [vim.fn.expand('$VIMRUNTIME/lua/vim/lsp')] = true}
+      --}
+    }
+  }
+
 }
 
 lsp_config.eslint.setup {
