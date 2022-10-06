@@ -41,15 +41,3 @@ lsp_config.sumneko_lua.setup {
 lsp_config.eslint.setup {
   settings = {}
 }
-
-
-
--- lsp_installer.on_server_ready(function(server)
---   local opts = {}
---
---   if server.name == "sumneko_lua" then
---     opts = lua_server_config()
---   end
---
---   server:setup(opts)
--- end)
