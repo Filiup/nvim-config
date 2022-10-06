@@ -43,7 +43,7 @@ require('packer').startup(
         require("config.plugins.Lualine");
       end
     }
-    
+
     use({
       'terrortylor/nvim-comment',
       config = function()
@@ -53,7 +53,7 @@ require('packer').startup(
 
     use({
       'lewis6991/gitsigns.nvim',
-      config = function() 
+      config = function()
         require('gitsigns').setup()
       end
     })
