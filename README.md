@@ -24,7 +24,6 @@ sudo apt install nevim gcc clang lua lua-language-server lazygit
 sudo pacman -S nevim gcc clang lua lua-language-server lazygit
 ``` 
 
-
 ***2. Naklonovanie repozitára do priečinku s konfiguráciou pre neoVim***
 ```bash
 mkdir -p ~/.config/nvim && cd .config/nvim
@@ -33,8 +32,8 @@ git clone https://github.com/Filiup/nvim-config.git
 
 ***3. Inštalácia [packer.nvim][packer_link]***
 ```bash
-mkdir -p ~/.config/nvim && cd .config/nvim
-git clone https://github.com/Filiup/nvim-config.git
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
 
