@@ -31,7 +31,7 @@ mkdir -p ~/.config/nvim && cd .config/nvim
 git clone https://github.com/Filiup/nvim-config.git
 ```
 
-***3. Inštalácia [Packer.nvim](packer_link)***
+***3. Inštalácia [packer.nvim][packer_link]***
 ```bash
 mkdir -p ~/.config/nvim && cd .config/nvim
 git clone https://github.com/Filiup/nvim-config.git
