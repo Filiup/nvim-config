@@ -43,7 +43,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 ***4. Inštalácia neoVim pluginov***
 
 - spustite neoVim pomocou príkazu `nvim`
-- skompilujte packer **[packer.nvim][packer_link]** pomocou vim príkazu `:PackerCompile`
+- skompilujte **[packer.nvim][packer_link]** pomocou vim príkazu `:PackerCompile`
 - nainštalujte všetky pluginy pomocou vim príkazu `:PackerSync`
 - reštartujte editor neoVim
 
