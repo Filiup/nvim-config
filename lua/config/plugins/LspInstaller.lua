@@ -7,7 +7,7 @@ lsp_installer.setup {
     "clangd",
     "pyright",
     "sumneko_lua",
-    "eslint"
+    "marksman"
   },
 }
 
@@ -16,6 +16,10 @@ lsp_config.clangd.setup {
 }
 
 lsp_config.pyright.setup {
+  settings = {}
+}
+
+lsp_config.marksman.setup {
   settings = {}
 }
 
@@ -36,8 +40,4 @@ lsp_config.sumneko_lua.setup {
     }
   }
 
-}
-
-lsp_config.eslint.setup {
-  settings = {}
 }
