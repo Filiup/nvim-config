@@ -10,7 +10,7 @@
 
 ## Návod na inštaláciu
 
-1. Inštalácia potrebných balíčkov
+***1. Inštalácia potrebných balíčkov***
 > **Ubuntu:**
 ```bash
 sudo apt install nevim gcc clang lua lua-language-server lazygit
