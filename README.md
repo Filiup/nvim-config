@@ -1,9 +1,9 @@
 ## Requirements
 
-- Neovim v0.7.0+
-- [Packer.nvim](https://github.com/wbthomason/packer.nvim)
+- neoVim v0.7.0+
+- [packer.nvim](https://github.com/wbthomason/packer.nvim)
 - clang
-- [Lazygit](https://github.com/jesseduffield/Lazygit)
+- [lazygit](https://github.com/jesseduffield/Lazygit)
 - lua
 - lua-language-server
 - python3
