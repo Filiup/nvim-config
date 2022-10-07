@@ -1,6 +1,6 @@
 [packer_link]: https://github.com/wbthomason/packer.nvim
 [lazygit_link]: https://github.com/jesseduffield/Lazygit
-
+[lsp_installer_link]: https://github.com/williamboman/nvim-lsp-installer
 ## Minimálne požiadavky
 
 - neoVim v0.7.0+
@@ -42,5 +42,9 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 - skompilujte packer pomocou vim príkazu `:PackerCompile`
 - nainštalujte všetky pluginy pomocou vim príkazu `:PackerSync`
 - reštartujte editor neoVim
+
+## Doplňujúce informácie
+
+Language servery pre jazyky **c**, **lua**, **python**, **markdown** by sa po opetovnom spustení editora mali automaticky nainštalovať pomcou pluginu **[LspInstaller][lsp_installer_link]**
 
 
