@@ -3,6 +3,7 @@
 [lsp_installer_link]: https://github.com/williamboman/nvim-lsp-installer
 
 [lsp_installer_config_file]: https://github.com/Filiup/nvim-config/blob/main/lua/config/plugins/LspInstaller.lua
+[keybinds_config_file]: https://github.com/Filiup/nvim-config/blob/main/lua/config/keybinds.lua
 
 ## Minimálne požiadavky
 
@@ -53,3 +54,7 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 - Skontrolujte, či sú language servery nainštalované pomocou vim príkazu `:LspInstallInfo`
 - Pre pridanie ďalších language serverov odporúčam pozrieť dokomentáciu k pluginu **[lsp-installer][lsp_installer_link]**, môžte si ju zobrazit aj priamo v editore napríklad príkazom `:h nvim-lsp-installer-quickstart`
 - Konfiguračný súbor pre **[lsp-installer][lsp_installer_link]** sa nachádza **[tu][lsp_installer_config_file]**
+
+***Klávesové skratky***
+- Klávesové skratky pre **editor/pluginy** si môžete pozriet v **[tomto][keybinds_config_file]** súbore
+- pri akejkoľvek nejasnosti si treba pozrieť dokumentáciu k pluginu, pre ktorý je klávesová skratka určená
