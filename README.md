@@ -4,9 +4,9 @@
 ## Minimálne požiadavky
 
 - neoVim v0.7.0+
-- [packer.nvim]([packer_link])
+- [packer.nvim][packer_link]
 - clang
-- [lazygit]([lazygit_link])
+- [lazygit][lazygit_link]
 - lua
 - lua-language-server
 - python3
@@ -31,7 +31,7 @@ mkdir -p ~/.config/nvim && cd .config/nvim
 git clone https://github.com/Filiup/nvim-config.git
 ```
 
-***3. Inštalácia [Packer.nvim]([packer_link])***
+***3. Inštalácia [Packer.nvim](packer_link)***
 ```bash
 mkdir -p ~/.config/nvim && cd .config/nvim
 git clone https://github.com/Filiup/nvim-config.git
