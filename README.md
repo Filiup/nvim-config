@@ -45,7 +45,8 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 ## Doplňujúce informácie
 
-Language servery pre jazyky **c**, **lua**, **python**, **markdown** by sa po opetovnom spustení editora mali automaticky nainštalovať pomcou pluginu **[lsp-installer][lsp_installer_link]**.   
-Skontrolujte, či sú language servery nainštalované pomocou vim príkazu `:LspInstallInfo`
+***Language servery*** 
+- Language servery pre jazyky **c**, **lua**, **python**, **markdown** by sa po opetovnom spustení editora mali automaticky nainštalovať pomcou pluginu **[lsp-installer][lsp_installer_link]**.
+- Skontrolujte, či sú language servery nainštalované pomocou vim príkazu `:LspInstallInfo`
 
 
