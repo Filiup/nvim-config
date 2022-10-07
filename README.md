@@ -57,4 +57,4 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 
 ***Klávesové skratky***
 - Klávesové skratky pre **editor/pluginy** si môžete pozriet v **[tomto][keybinds_config_file]** súbore
-- pri akejkoľvek nejasnosti si treba pozrieť dokumentáciu k pluginu, pre ktorý je klávesová skratka určená
+- Pri akejkoľvek nejasnosti si treba pozrieť dokumentáciu k pluginu, pre ktorý je klávesová skratka určená
