@@ -1,9 +1,12 @@
+[packer_link]: https://github.com/wbthomason/packer.nvim
+[lazygit_link]: https://github.com/jesseduffield/Lazygit
+
 ## Minimálne požiadavky
 
 - neoVim v0.7.0+
-- [packer.nvim](https://github.com/wbthomason/packer.nvim)
+- [packer.nvim]([packer_link])
 - clang
-- [lazygit](https://github.com/jesseduffield/Lazygit)
+- [lazygit]([lazygit_link])
 - lua
 - lua-language-server
 - python3
@@ -27,4 +30,11 @@ sudo pacman -S nevim gcc clang lua lua-language-server lazygit
 mkdir -p ~/.config/nvim && cd .config/nvim
 git clone https://github.com/Filiup/nvim-config.git
 ```
+
+***3. Inštalácia [Packer.nvim]([packer_link])***
+```bash
+mkdir -p ~/.config/nvim && cd .config/nvim
+git clone https://github.com/Filiup/nvim-config.git
+```
+
 
