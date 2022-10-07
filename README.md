@@ -19,4 +19,14 @@ sudo apt install nevim gcc clang lua lua-language-server lazygit
 > **Arch Linux:**
 ```bash
 sudo pacman -S nevim gcc clang lua lua-language-server lazygit
+``` 
+
+
+***2. Naklonovanie repozitára do priečinku s konfiguráciou pre neoVim***
+```bash
+mkdir -p ~/.config/nvim && cd .config/nvim
 ```
+```bash
+git clone https://github.com/Filiup/nvim-config.git
+```
+
