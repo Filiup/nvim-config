@@ -11,12 +11,12 @@
 ## Návod na inštaláciu
 
 1. Inštalácia potrebných balíčkov
-Ubuntu:
+: Ubuntu:
 ```bash
 sudo apt install nevim gcc clang lua lua-language-server lazygit
 ```
 
-Arch Linux:
+: Arch Linux:
 ```bash
 sudo pacman -S nevim gcc clang lua lua-language-server lazygit
 ```
