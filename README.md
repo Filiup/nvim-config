@@ -56,5 +56,5 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
 - Konfiguračný súbor pre **[lsp-installer][lsp_installer_link]** sa nachádza **[tu][lsp_installer_config_file]**
 
 ***Klávesové skratky***
-- Klávesové skratky pre **editor/pluginy** si môžete pozriet v **[tomto][keybinds_config_file]** súbore
+- Klávesové skratky pre **editor/pluginy** si môžete pozrieť v **[tomto][keybinds_config_file]** súbore
 - Pri akejkoľvek nejasnosti si treba pozrieť dokumentáciu k pluginu, pre ktorý je klávesová skratka určená
