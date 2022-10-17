@@ -14,18 +14,20 @@
 - lua
 - lua-language-server
 - python3
+- nodejs
+- npm
 
 ## Návod na inštaláciu
 
 ***1. Inštalácia potrebných balíčkov***
 > **Ubuntu:**
 ```bash
-sudo apt install nevim gcc clang lua lua-language-server lazygit
+sudo apt install nevim gcc clang lua lua-language-server lazygit nodejs npm
 ```
 
 > **Arch Linux:**
 ```bash
-sudo pacman -S nevim gcc clang lua lua-language-server lazygit
+sudo pacman -S nevim gcc clang lua lua-language-server lazygit nodejs npm
 ``` 
 
 ***2. Naklonovanie repozitára do priečinku s konfiguráciou pre neoVim***
