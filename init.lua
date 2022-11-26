@@ -1,6 +1,8 @@
 require('config.plugins')
 require('config.keybinds')
 
+vim.opt.undofile = true
+
 -- zakladne nastavenia
 vim.cmd [[ colorscheme nightfox ]]
 
